@@ -1,23 +1,9 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import MovieIndex from '../views/Movies/MovieIndex.vue'
-import MovieCreate from '../views/Movies/MovieCreate.vue'
-
-const routes = [
-  {
-    path: '/',
-    name: 'movie.index',
-    component: MovieIndex
-  },
-  {
-    path: '/criar',
-    name: 'movie.create',
-    component: MovieCreate
-  },
-]
+import { createRouter, createWebHistory } from "vue-router";
+import routes from "../router/routes.js";
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  history: createWebHistory(),
+  routes,
+});
 
-export default router
+export default router;
