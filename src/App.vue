@@ -20,6 +20,5 @@ export default {
 <style>
 main {
   padding: 40px;
-  text-align: center;
 }
 </style>

@@ -1,5 +1,5 @@
-import MovieIndex from "../views/Movies/MovieIndex.vue";
-import MovieCreate from "../views/Movies/MovieCreate.vue";
+import MovieIndex from "@/views/Movies/MovieIndex.vue";
+import MovieCreate from "@/views/Movies/MovieCreate.vue";
 
 const routes = [
   {
